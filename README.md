@@ -106,7 +106,7 @@ GPT는 JSON 형식으로 Top 10 / Bottom 5 리스트 응답
 
 → 프론트에서 탭 형태로 파싱 및 시각화하여 표시
 
-![추천예](/uploads/766ed33113499d881ddd270cc80ebf88/추천예.png)
+![Image](https://github.com/user-attachments/assets/b2a0a5c4-9234-47ea-bd73-069d97cc5f84)
 
 ---
 
