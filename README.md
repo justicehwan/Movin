@@ -1,5 +1,5 @@
 
-# 🎬 AI 기반 캐릭터의 영화 추천 시스템 🎬
+# AI 기반 캐릭터의 영화 추천 시스템 
 
 GPT와 TMDB API를 활용하여, 영화 속 캐릭터의 시선으로 영화를 추천받는 커뮤니티 서비스입니다.
 
@@ -29,7 +29,7 @@ frontend/.env #VITE_TMDB_API_KEY,VITE_YOUTUBE_API_KEY,VITE_API_URL=http://localh
 ```
 
 
-## 👥 팀원 정보 및 업무 분담
+##  팀원 정보 및 업무 분담
 
 | 이름     | 역할         | 주요 담당 |
 |----------|--------------|-----------|
@@ -37,7 +37,7 @@ frontend/.env #VITE_TMDB_API_KEY,VITE_YOUTUBE_API_KEY,VITE_API_URL=http://localh
 | 최지웅   | 팀원, 백엔드     | Django 서버 구축, 모델링 및 DB 설계, REST API 개발, OpenAI 통신 로직 구현 |
 ---
 
-## 🎯 목표 서비스 구현 및 실제 구현 정도
+## 목표 서비스 구현 및 실제 구현 정도
 
 ### 목표
 - 캐릭터를 선택하면 해당 인물의 가치관 및 성격에 맞는 영화를 추천
@@ -56,7 +56,7 @@ frontend/.env #VITE_TMDB_API_KEY,VITE_YOUTUBE_API_KEY,VITE_API_URL=http://localh
 
 ---
 
-## 🗂 설계
+## 설계
 - ![Image](https://github.com/user-attachments/assets/e6429673-d86b-43e9-8cf6-992dd2bb8e4b)
 - ![Image](https://github.com/user-attachments/assets/e8c8c42f-b495-4c94-b90d-583204f2f5b9)
 
@@ -64,12 +64,12 @@ frontend/.env #VITE_TMDB_API_KEY,VITE_YOUTUBE_API_KEY,VITE_API_URL=http://localh
 
 ---
 
-## 🧠 영화 추천 알고리즘 (GPT 기반)
+## 영화 추천 알고리즘 (GPT 기반)
 
-### 🎭 입력
+### 입력
 사용자가 선택한 캐릭터 (예: '어벤져스 - 아이언맨')
 
-### 🧾 프롬프트 예시
+### 프롬프트 예시
 ```text
 당신은 '어벤져스 - 아이언맨' 캐릭터입니다.
 
@@ -101,7 +101,7 @@ frontend/.env #VITE_TMDB_API_KEY,VITE_YOUTUBE_API_KEY,VITE_API_URL=http://localh
 }}
 ```
 
-### 📤 출력
+### 출력
 GPT는 JSON 형식으로 Top 10 / Bottom 5 리스트 응답  
 
 → 프론트에서 탭 형태로 파싱 및 시각화하여 표시
@@ -110,7 +110,7 @@ GPT는 JSON 형식으로 Top 10 / Bottom 5 리스트 응답
 
 ---
 
-## 💡 핵심 기능
+## 핵심 기능
 
 - **캐릭터 기반 영화 추천**  
   사용자가 선택한 캐릭터 입장에서 영화를 추천하는 완전히 새로운 UX
@@ -129,7 +129,7 @@ GPT는 JSON 형식으로 Top 10 / Bottom 5 리스트 응답
 
 ---
 
-## 🤖 생성형 AI 활용
+## 생성형 AI 활용
 
 - OpenAI GPT-4o-mini API 사용
 - 캐릭터 말투와 성격 반영된 영화 평가 텍스트 생성
@@ -138,13 +138,13 @@ GPT는 JSON 형식으로 Top 10 / Bottom 5 리스트 응답
 
 ---
 
-## 💬 느낀점 및 후기
+## 느낀점 및 후기
 
 > 프로젝트 구조 설계부터 상태관리까지 모든 것을 직접 구현하며 Vue 생태계에 대한 이해가 깊어졌습니다. 캐릭터 기반 추천이라는 새로운 UX를 어떻게 자연스럽게 사용자 경험으로 풀어낼지 고민하면서 많은 피드백을 주고받았고, 특히 GPT 응답을 JSON으로 받아 탭 기반으로 분리하고 UI/UX적으로도 깔끔하게 표현하는 데 집중했습니다. Bootstrap 기반 디자인에서 요소 간 간격, 정렬, 동적 컴포넌트 렌더링까지 모두 수작업으로 조절하며 뷰의 역동성도 경험했습니다.
 
 ---
 
-## 🛠 기술 스택
+## 기술 스택
 
 - **Frontend**: Vue.js 3, Pinia, Bootstrap, Axios
 - **Backend**: Django, Django REST Framework, SQLite
@@ -154,7 +154,7 @@ GPT는 JSON 형식으로 Top 10 / Bottom 5 리스트 응답
 
 ---
 
-## 📞 사용 API
+## 사용 API
 - OpenAI API
 - TMDB API
 - Youtube Data API
