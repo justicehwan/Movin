@@ -57,8 +57,8 @@ frontend/.env #VITE_TMDB_API_KEY,VITE_YOUTUBE_API_KEY,VITE_API_URL=http://localh
 ---
 
 ## 🗂 설계
-- [ERD](/uploads/e7b3072508b0ba36a0ba901bc852518b/ERD.png)
-- [REST API](/uploads/9e60bb58a53bfd9ea449fa041afe88d6/REST_API_설계.png)
+- ![Image](https://github.com/user-attachments/assets/e6429673-d86b-43e9-8cf6-992dd2bb8e4b)
+- ![Image](https://github.com/user-attachments/assets/e8c8c42f-b495-4c94-b90d-583204f2f5b9)
 
 
 
